@@ -16,10 +16,10 @@
 		57FC9D9B2110003500BBA214 /* YZAudioCountDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FC9D9A2110003500BBA214 /* YZAudioCountDownTests.m */; };
 		57FC9DA62110003500BBA214 /* YZAudioCountDownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FC9DA52110003500BBA214 /* YZAudioCountDownUITests.m */; };
 		57FC9DBC2110005600BBA214 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FC9DB52110005500BBA214 /* UIImage+Extension.m */; };
-		57FC9DBD2110005600BBA214 /* I Need A Dollar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57FC9DB62110005500BBA214 /* I Need A Dollar.mp3 */; };
 		57FC9DBE2110005600BBA214 /* YZMusicSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FC9DB72110005500BBA214 /* YZMusicSliderView.m */; };
 		57FC9DBF2110005600BBA214 /* YZAudioCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FC9DBA2110005500BBA214 /* YZAudioCountDownView.m */; };
 		57FC9DC02110005600BBA214 /* UIView+ReRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FC9DBB2110005500BBA214 /* UIView+ReRect.m */; };
+		57FC9DC321103F2000BBA214 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57FC9DC221103F2000BBA214 /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,12 +59,12 @@
 		57FC9DB32110005400BBA214 /* YZAudioCountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZAudioCountDownView.h; sourceTree = "<group>"; };
 		57FC9DB42110005500BBA214 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		57FC9DB52110005500BBA214 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
-		57FC9DB62110005500BBA214 /* I Need A Dollar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Need A Dollar.mp3"; sourceTree = "<group>"; };
 		57FC9DB72110005500BBA214 /* YZMusicSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZMusicSliderView.m; sourceTree = "<group>"; };
 		57FC9DB82110005500BBA214 /* YZMusicSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZMusicSliderView.h; sourceTree = "<group>"; };
 		57FC9DB92110005500BBA214 /* UIView+ReRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ReRect.h"; sourceTree = "<group>"; };
 		57FC9DBA2110005500BBA214 /* YZAudioCountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZAudioCountDownView.m; sourceTree = "<group>"; };
 		57FC9DBB2110005500BBA214 /* UIView+ReRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ReRect.m"; sourceTree = "<group>"; };
+		57FC9DC221103F2000BBA214 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 		57FC9DC12110007E00BBA214 /* vender */ = {
 			isa = PBXGroup;
 			children = (
-				57FC9DB62110005500BBA214 /* I Need A Dollar.mp3 */,
+				57FC9DC221103F2000BBA214 /* music.mp3 */,
 				57FC9DB42110005500BBA214 /* UIImage+Extension.h */,
 				57FC9DB52110005500BBA214 /* UIImage+Extension.m */,
 				57FC9DB92110005500BBA214 /* UIView+ReRect.h */,
@@ -267,7 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57FC9D8E2110003500BBA214 /* LaunchScreen.storyboard in Resources */,
-				57FC9DBD2110005600BBA214 /* I Need A Dollar.mp3 in Resources */,
+				57FC9DC321103F2000BBA214 /* music.mp3 in Resources */,
 				57FC9D8B2110003500BBA214 /* Assets.xcassets in Resources */,
 				57FC9D892110003300BBA214 /* Main.storyboard in Resources */,
 			);

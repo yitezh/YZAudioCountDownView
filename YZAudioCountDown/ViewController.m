@@ -25,7 +25,7 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)musicButtonClicked:(id)sender {
-    NSString* filename = @"I Need A Dollar.mp3";
+    NSString* filename = @"music.mp3";
     
     NSString *musicPath = [[NSBundle mainBundle] pathForResource:filename ofType:nil];
     
