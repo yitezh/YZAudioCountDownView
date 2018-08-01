@@ -125,7 +125,7 @@
     
     
     
-    NSTimeInterval period = 0.1;
+    NSTimeInterval period = 0.05;
     
     dispatch_queue_t queue = dispatch_get_main_queue();
     self.timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
@@ -287,7 +287,7 @@
 - (void)checkMusicSlider {
     float percent = self.sliderPencent*_totalTime;
     float current = self.auPlayer.currentTime;
-    if(ceil(current)>= _totalTime ) {
+    if(current+0.1>= _totalTime ) {
         [self resetPlayTime];
     }
     
